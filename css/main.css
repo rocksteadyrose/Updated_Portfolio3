@@ -2030,6 +2030,11 @@ nav a:hover {
   padding: 39px 40px 28px 20px;
 }
 
+nav .logo:hover {
+    background: transparent;
+    color: #a387ff;
+}
+
 .navbar #logohover a:hover {
 color: white;
 }
@@ -2186,30 +2191,14 @@ body:after {
 @media (max-width: 575px) {
   .navbar-collapse {
     background-color: navy;
-    /* width: 300%; */
+/* margin: 0 200px 0 200px; */
     border-bottom: yellow solid 5px;
-
-    /* margin: 0 200px 0 200px; */
-    padding: 0 80px 0 150px;
-  }
-
-  .nav-item .nav-link {
-    width: auto;
-  }
-
-  .main-menubar {
-    padding: 0 9px 0 50px;
-    margin: 0 auto;
-    text-align: left;
-
-  }
-
-  .navbar-collapse .navbar-nav {
-    padding: 0 10px 50px 50px;
-
-  }
-
-
+    padding-right: 16px;
+    margin-right: -16px;
+    padding-left: 16px;
+    margin-left: -16px;
+   
+  } 
   .logo {
     width: 50%;
   }
