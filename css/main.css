@@ -173,7 +173,7 @@ td, th {
 }
 
 .arrow {
-  padding-top: 90px;
+  padding-top: 50px;
   text-align: center;
   margin: 8% 0;
   stroke: white;
@@ -1962,6 +1962,44 @@ nav {
   text-shadow: 0 0 30px rgb(255, 251, 0), -3px 0 rgb(255, 0, 179), 0 3px rgb(255, 0, 179), 3px 0 rgb(255, 0, 179), 0 -3px rgb(255, 0, 179);
 }
 
+.githubhover, .stackedoverflowhover, .linkedinhover {
+  display:inline
+}
+
+.githubhover, .stackedoverflowhover, .linkedinhover {
+  position: relative
+}
+
+.githubhover #githubhovericon {
+  display: none;
+  position: absolute;
+  top: -128px;
+  left: -1px;
+  z-index: 99;
+  width: 100%;
+}
+
+.githubhover:hover #githubhovericon, .linkedinhover:hover #linkedinhovericon, .stackedoverflowhover:hover #stackedoverflowhovericon {
+  display: inline;
+}
+
+.linkedinhover #linkedinhovericon {
+  display: none;
+  position: absolute;
+  top: -126px;
+  left: -1px;
+  z-index: 99;
+  width: 100%;
+}
+
+.stackedoverflowhover #stackedoverflowhovericon {
+  display: none;
+  position: absolute;
+  top: -126px;
+  left: 0px;
+  z-index: 99;
+  width: 100%;
+}
 
 .logo2 {
   /* line-height: 200%; */
@@ -2278,7 +2316,7 @@ body:after {
 }
 
 .banner-area .banner-content {
-  margin-top: 50px;
+  margin-top: 5px;
 }
 
 .banner-area .banner-content h1 {
