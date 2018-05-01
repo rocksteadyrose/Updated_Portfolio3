@@ -2071,6 +2071,14 @@ nav {
   text-shadow: 0 0 30px rgb(255, 251, 0), -3px 0 rgb(255, 0, 179), 0 3px rgb(255, 0, 179), 3px 0 rgb(255, 0, 179), 0 -3px rgb(255, 0, 179);
 }
 
+.email {
+  color: yellow;
+}
+
+.email:hover {
+  color: rgb(208, 138, 255);
+}
+
 .githubhover, .stackedoverflowhover, .linkedinhover {
   display:inline
 }
