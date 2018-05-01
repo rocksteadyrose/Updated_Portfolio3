@@ -41,6 +41,9 @@
 						<a class="nav-link" href="#portfolio">Projects</a>
 					</li>
 					<li class="nav-item active">
+						<a class="nav-link" href="#webskills">Skills</a>
+					</li>
+					<li class="nav-item active">
 						<a class="nav-link" href="#contact">Contact</a>
 					</li>
 				</ul>
@@ -67,7 +70,7 @@
 											<img class="socialicon" id="githubhovericon" src="images/githuboverlay.png">
 										</a>
 									</div>
-										
+
 									<div class="linkedinhover">
 										<a href="https://www.linkedin.com/in/leslie-rose/" target="blank">
 											<img class="socialicon" id="linkedin" src="images/linkedin.png" alt="linkedin">
@@ -76,7 +79,7 @@
 									</div>
 
 									<div class="stackedoverflowhover">
-										<a  href="https://stackoverflow.com/users/9195818/leslie-rose?tab=profile" target="blank">
+										<a href="https://stackoverflow.com/users/9195818/leslie-rose?tab=profile" target="blank">
 											<img class="socialicon" id="stackedoverflow" src="images/stackoverflow.png" alt="stackoverflow">
 											<img class="socialicon" id="stackedoverflowhovericon" src="images/stackoverflowoverlay.png">
 										</a>
@@ -114,49 +117,53 @@
 										<em>Sesame Street</em>, and even be a balloon handler in the Macy’s Thanksgiving Day Parade. Since her time at NYU,
 										Leslie has been creating a children's television show targeted at 4 to 8-year-old children to help develop their
 										music literacy, which she will begin pitching later this year.</p>
+									<div id="webskills"></div>
 
 									<p>Leslie has always had very strong skills with software and computers and will be seeking a role as a web developer
 										beginning in summer 2018. She hopes to further expand her skill sets at a company where she can continue to learn
 										and excel while making a positive impact.</p>
+
+									<a href="https://drive.google.com/open?id=1fGqMdf4peEkJ69RgnpkfZDDCHqDad8vM" target="blank">
+										<span id="resume">
+											<br>(View Leslie's Professional Resume)</span>
+									</a>
+
 									<br>
 									<br>
+									<br>
 
 
+									<div class="col-xs-12 col-s-12 col-md-12 mx-auto">
 
-									<div class="col-xs-12 skills mx-auto">
 										<h3 class="text-center about-title mb-70">Leslie's Web Development Skills</h3>
 
-										<div class="row justify-content-center">
-											<div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-1 skilldiv">
-												<img src="images/html5.png" class="skillimg">
+										<div class="row skillset justify-content-center">
+											<div class="col-xs-1 col-sm-3 col-md-2 col-md-offset-1 skilldiv">
+												<img class="img-fluid" src="images/html5.png" id="skillimg">
 											</div>
-											<div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-1 skilldiv">
-												<img src="images/css.png" class="skillimg">
+											<div class="col-xs-1 col-sm-3 col-md-2 col-md-offset-1 skilldiv">
+												<img class="img-fluid css" src="images/css.png" id="skillimg">
 											</div>
-											<div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-1 skilldiv">
-												<img src="images/javascript.png" class="skillimg">
+											<div class="col-xs-1 col-sm-3 col-md-2 col-md-offset-1 skilldiv">
+												<img class="img-fluid javascript" src="images/javascript.png" id="skillimg">
 											</div>
-											<div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-1 skilldiv">
-												<img src="images/jquery.png" class="skillimg">
+											<div class="col-xs-1 col-sm-3 col-md-2 col-md-offset-1 skilldiv">
+												<img class="img-fluid" src="images/jquery.png" id="skillimg">
 											</div>
 										</div>
 										<div class="row justify-content-center">
 
 											<div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-1 skilldiv">
-												<img src="images/bootstrap.png" class="skillimg">
+												<img class="img-fluid" src="images/bootstrap.png" id="skillimg">
 											</div>
 											<div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-1 skilldiv">
-												<img src="images/nodejs.png" class="skillimg">
+												<img class="img-fluid" src="images/nodejs.png" id="skillimg">
 											</div>
 											<div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-1 skilldiv">
-												<img src="images/github2.png" class="skillimg">
+												<img class="img-fluid" src="images/github2.png" id="skillimg">
 											</div>
 										</div>
-										<a href="https://drive.google.com/open?id=1fGqMdf4peEkJ69RgnpkfZDDCHqDad8vM" target="blank">
-											<span id="resume">
-												<br>
-												<br>(View Leslie's Professional Resume)</span>
-										</a>
+
 									</div>
 							</div>
 						</div>
@@ -171,8 +178,10 @@
 			<div id="portfolio"></div>
 			<div class="portfoliocontainer">
 				<h2 class="text-center text-uppercase featuredprojects">FEATURED PROJECTS</h2>
+				<br>
+
 				<section class="portfolio-area custom-center pt-8 pb-30">
-					<div class="row">
+					<div class="row justify-content-center">
 						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 
 							<!-- Indicators -->
@@ -183,48 +192,61 @@
 								<li data-target="#carouselExampleControls" data-slide-to="3"></li>
 							</ul>
 
-							<div class="carousel-inner">
-								<div class="carousel-item active">
+							<div class="carousel-inner align-items-xs-center">
+								<div class="carousel-item active align-items-xs-center">
 									<img class="d-block w-100" id="hangmanimg" src="images/hangman.jpg" alt="Hangman">
-									<div class="carousel-caption d-none d-md-block">
+									<div class="carousel-caption captionhangman d-none d-md-block">
 										<h5>BROADWAY HANGMAN</h5>
-										<p>Broadway-themed hangman game that features dynamically updated HTML and CSS powered by JavaScript.</p>
+										<br>
+										<div class="description">
+											<p>Broadway-themed hangman game that features dynamically updated HTML and CSS powered by JavaScript.</p>
+										</div>
 										<div class="buttonlinks">
 											<a class="text-uppercase view-details" href="https://rocksteadyrose.github.io/Hangman-Game/" target="blank">Play Game</a>
 											<a class="text-uppercase view-details" id="github" href="https://github.com/rocksteadyrose/Hangman-Game" target="blank">GitHub</a>
 										</div>
 									</div>
 								</div>
-								<div class="carousel-item">
+								<div class="carousel-item align-items-xs-center">
 									<img class="d-block w-100" id="friendsimg" src="images/triviagame.jpg" alt="friendsgame">
-									<div class="carousel-caption d-none d-md-block">
+									<div class="carousel-caption captionfriends d-none d-md-block">
 										<h5>F.R.I.E.N.D.S Trivia Game</h5>
-										<p>Trivia game about the TV show, 'F.R.I.E.N.D.S', that utilizes timers, JavaScript for the logic, and jQuery to manipulate
-											HTML.</p>
+										<br>
+										<div class="description">
+											<p>Trivia game about the TV show, 'F.R.I.E.N.D.S', that utilizes timers, JavaScript for the logic, and jQuery to
+												manipulate HTML.
+											</p>
+										</div>
 										<div class="buttonlinks">
 											<a class="text-uppercase view-details" href="https://rocksteadyrose.github.io/TriviaGame/" target="blank">Play Game</a>
 											<a class="text-uppercase view-details" id="github" href="https://github.com/rocksteadyrose/TriviaGame" target="blank">GitHub</a>
 										</div>
 									</div>
 								</div>
-								<div class="carousel-item">
+								<div class="carousel-item align-items-xs-center">
 									<img class="d-block w-100" id="gifimg" src="images/giftastic.jpg" alt="Giftastic">
-									<div class="carousel-caption d-none d-md-block">
+									<div class="carousel-caption captiongif d-none d-md-block">
 										<h5>Like, Totally Tubular 80s Gifs!</h5>
-										<p>This site calls the GIPHY API and populates the page with 80s TV show gifs. Additionally, the user can use this
-											site to search for their own 80s TV shows.</p>
+										<br>
+										<div class="description">
+											<p>This site calls the GIPHY API and populates the page with 80s TV show gifs. Additionally, the user can use this
+												site to search for their own 80s TV shows.</p>
+										</div>
 										<div class="buttonlinks">
 											<a class="text-uppercase view-details" href="https://rocksteadyrose.github.io/GifTastic/" target="blank">View Site</a>
 											<a class="text-uppercase view-details" id="github" href="https://github.com/rocksteadyrose/GifTastic" target="blank">GitHub</a>
 										</div>
 									</div>
 								</div>
-								<div class="carousel-item">
+								<div class="carousel-item align-items-xs-center">
 									<img class="d-block w-100" id="rpsimg" src="images/rps.jpg" alt="Rock Paper Scissors Multiplayer">
-									<div class="carousel-caption d-none d-md-block">
+									<div class="carousel-caption captionrps d-none d-md-block">
 										<h5>Rock Paper Scissors Firebase Multiplayer Game</h5>
-										<p>This application allows two users with separate devices to play Rock Paper Scissors against one another. Users'
-											stats, choices, and chat messages are tracked and updated in realtime via Firebase.</p>
+										<br>
+										<div class="description">
+											<p>This application allows two users with separate devices to play Rock Paper Scissors against one another. Users'
+												stats, choices, and chat messages are tracked and updated in realtime via Firebase.</p>
+										</div>
 										<div class="buttonlinks">
 											<a class="text-uppercase view-details" href="https://rocksteadyrose.github.io/RPS-Multiplayer/" target="blank">Play Game</a>
 											<a class="text-uppercase view-details" id="github" href="https://github.com/rocksteadyrose/RPS-Multiplayer" target="blank">GitHub</a>
@@ -297,6 +319,9 @@
 								<a href="#portfolio">Projects</a>
 							</li>
 							<li>
+								<a href="#webskills">Skills</a>
+							</li>
+							<li>
 								<a href="#contact">Contact</a>
 							</li>
 						</ul>
@@ -312,7 +337,8 @@
 						</div>
 						<div class="footer-content">
 							<div class="text-center">
-								Copyright © 2018 Leslie Rose
+								<br>
+								<br> Copyright © 2018 Leslie Rose
 							</div>
 						</div>
 					</footer>

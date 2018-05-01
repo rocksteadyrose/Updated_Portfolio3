@@ -194,6 +194,7 @@ td, th {
   cursor: pointer;
   border: none;
   border-radius: 50%;
+  padding-bottom: 10px;
   background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
   box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
 }
@@ -780,6 +781,15 @@ td, th {
 @media (max-width: 767px) {
   .no-flex-xs {
     display: block !important;
+  }
+
+  .carousel-caption {
+    display: block !important;
+  }
+
+  .captionrps {
+    height: 90%;
+    font-size: 9px;
   }
 }
 
@@ -1907,6 +1917,104 @@ header {
   }
 }
 
+.hiddencaptions {
+  display: none;
+}
+
+@media (max-width: 704px) {
+#gifimg .carousel-caption {
+  width: 85%;
+  font-size: 10px;}
+
+.captionhangman {
+  width: 75%;
+  font-size: 10px;}
+
+.captionfriends {
+  width: 75%;
+  font-size: 10px;}
+
+.captiongif {
+  width: 75%;
+  font-size: 10px;}
+
+.captionrps {
+  width: 75%;
+  font-size: 8px;
+  padding-right: 5px;}
+
+  .carousel-caption h5 {
+    font-size: 12px;
+}
+}
+
+@media (max-width: 653px) {
+
+.skilldiv {
+  width: 30%;
+}
+
+.description {
+  display: none;
+}
+
+.buttonlinks a {
+  font-size: 10px;
+}
+
+.captionhangman {
+  height: 45%;
+  font-size: 10px;
+}
+
+.captionfriends {
+  height: 45%;
+  font-size: 10px;}
+
+.captiongif {
+  height: 45%;
+  font-size: 10px;}
+
+.captionrps {
+  height: 65%;
+  font-size: 10px;}
+
+  .carousel-caption h5 {
+    font-size: 10px;
+}
+}
+
+@media (max-width: 618px) {
+  .description {
+    display: none;
+  }
+  
+  .buttonlinks a {
+    font-size: 10px;
+  }
+  
+  .captionhangman {
+    height: 65%;
+    font-size: 10px;
+  }
+  
+  .captionfriends {
+    height: 65%;
+    font-size: 10px;}
+  
+  .captiongif {
+    height: 65%;
+    font-size: 10px;}
+  
+  .captionrps {
+    height: 65%;
+    font-size: 10px;}
+  
+    .carousel-caption h5 {
+      font-size: 10px;
+  }
+  }
+
 .menu-bar {
   cursor: pointer;
 }
@@ -1992,6 +2100,11 @@ nav {
   width: 100%;
 }
 
+.javascript {
+  width: 70%;
+  padding-top: 20px;
+}
+
 .stackedoverflowhover #stackedoverflowhovericon {
   display: none;
   position: absolute;
@@ -2019,7 +2132,7 @@ nav {
 }
 
 .portfoliocontainer .custom-center {
-  background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+  background-color: #5b2081;
 }
 
 .socialicons img {
@@ -2237,10 +2350,224 @@ body:after {
     margin-left: -16px;
    
   } 
+
+#skillimg {
+    max-width: 70%;
+    padding-left: 20px;
+  } 
+
   .logo {
     width: 50%;
   }
-}
+    
+    .buttonlinks a {
+      font-size: 10px;
+    }
+    
+    .captionhangman {
+      width: 85%;
+      margin-right: 50px;
+      font-size: 10px;
+      position: absolute;
+      left: 24px;
+    }
+    
+    .captionfriends {
+      width: 85%;
+      margin-right: 50px;
+      font-size: 10px;
+      position: absolute;
+      left: 24px;}
+    
+    .captiongif {
+      width: 85%;
+      margin-right: -200%;
+      font-size: 10px;
+      position: absolute;
+      left: 24px;}
+    
+    .captionrps {
+      width: 85%;
+      background-color: yellow;
+      padding-right: -50px;      
+      font-size: 10px;
+      position: absolute;
+      left: 24px;}
+    
+      .carousel-caption h5 {
+        font-size: 10px;
+    }
+    }
+
+    @media (max-width: 500px) {
+
+    .buttonlinks a {
+      font-size: 10px;
+    }
+    
+    .captionhangman {
+      width: 90%;
+      margin-right: 50px;
+      font-size: 10px;
+      position: absolute;
+      left: 16px;
+    }
+    
+    .captionfriends {
+      width: 90%;
+      margin-right: 50px;
+      font-size: 10px;
+      position: absolute;
+      left: 16px;
+    }
+    
+    .captiongif {
+      width: 90%;
+      margin-right: 50px;
+      font-size: 10px;
+      position: absolute;
+      left: 16px;
+    }
+    
+    .captionrps {
+      width: 95%;
+      color: yellow;
+      background-color: yellow;
+      position: absolute;
+      left: 7px;
+      font-size: 10px;}
+    
+      .carousel-caption h5 {
+        font-size: 10px;
+    }
+  }
+
+  @media (max-width: 487px) {
+
+    .carousel-inner {
+      width: 350px;
+      
+    }
+
+  .captionhangman {
+    width: 95%;
+    margin-right: 50px;
+    font-size: 10px;
+    position: absolute;
+    left: 8px;
+  }
+  
+  .captionfriends {
+    width: 95%;
+    margin-right: 50px;
+    font-size: 10px;
+    position: absolute;
+    left: 8px;}
+  
+  .captiongif {
+    width: 85%;
+    margin-right: -200%;
+    font-size: 10px;
+    position: absolute;
+    left: 24px;}
+  
+  .captionrps {
+    height: 60%;
+    margin-right: 50px;
+    font-size: 10px;
+    position: absolute;
+    left: 9px;
+    top: 70px;}
+  }
+
+  @media (max-width: 438px) {
+    .buttonlinks a {
+      font-size: 10px;
+    }
+
+    .skilldiv {
+      width: 1%;
+    }
+
+    .carousel-inner {
+      width: 350px;
+      
+    }
+
+    .captionhangman {
+      width: auto;
+      margin-right: 50px;
+      font-size: 5px;
+      position: absolute;
+      left: 8px;
+      top: 30px;
+    }
+/*     
+    .captionfriends {
+      width: 95%;
+      margin-right: 50px;
+      font-size: 10px;
+      position: absolute;
+      left: 8px;}
+    
+    .captiongif {
+      width: 85%;
+      margin-right: -200%;
+      font-size: 10px;
+      position: absolute;
+      left: 24px;}
+    
+    .captionrps {
+      height: 80%;
+      margin-right: 50px;
+      font-size: 10px;
+      position: absolute;
+      left: 6px;
+      top: 30px;} */ */
+    
+      
+  }
+
+  @media (max-width: 470px) {
+
+    .buttonlinks a {
+      font-size: 10px;
+    }
+    
+    .captionhangman {
+      width: 96%;
+      margin-right: 50px;
+      font-size: 10px;
+      position: absolute;
+      left: 7px;
+    }
+    
+    .captionfriends {
+      width: 96%;
+      margin-right: 50px;
+      font-size: 10px;
+      position: absolute;
+      left: 7px;
+    }
+    
+    .captiongif {
+      width: 95%;
+      margin-right: 50px;
+      font-size: 10px;
+      position: absolute;
+      left: 6px;
+    }
+    
+    .captionrps {
+      width: 100%;
+      font-size: 10px;
+      position: absolute;
+      left: 2px;}
+    
+      .carousel-caption h5 {
+        font-size: 10px;
+    }
+  }
 
 .primary-btn {
   line-height: 40px;
@@ -2346,10 +2673,6 @@ body:after {
   opacity: 0.9;
 }
 
-/* .about-area {
-  background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
-} */
-
 .about-left img {
   outline: 10px solid #777;
   outline-offset: -54px;
@@ -2436,9 +2759,6 @@ body:after {
   align-content: center;
 }
 
-.portfolio .custom-center {
-  background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
-}
 
 .featuredprojects {
   padding: 10px;
@@ -2504,6 +2824,26 @@ body:after {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
+#gifimg {
+  box-shadow: 20px 3px 50px 35px rgba(0, 0, 0, 0.75);
+  border: rgb(255, 255, 255) solid 5px;
+}
+
+ #rpsimg {
+  box-shadow: 20px 3px 50px -25px rgba(0, 0, 0, 0.75);
+  border: rgb(0, 0, 0) solid 5px;
+}
+
+#friendsimg {
+  border: rgb(91, 21, 255) solid 5px;
+  box-shadow: 20px 3px 50px -25px rgba(0, 0, 0, 0.75);
+}
+
+#hangmanimg {
+  box-shadow: 20px 3px 50px -25px rgba(0, 0, 0, 0.75);
+  border: rgb(234, 0, 255) solid 5px;
+}
+
 .buttonlinks {
   margin-top: 35px;
 }
@@ -2515,6 +2855,7 @@ body:after {
 .carousel-caption {
   background-color: navy;  
   padding: 10px 30px 40px 30px;
+  box-shadow: 4px -2px 10px 3px rgba(2, 0, 0, 0.2), -4px -2px 10px 3px rgba(2, 0, 0, 0.2);
 }
 
 .carousel-caption h5 {
@@ -2566,6 +2907,10 @@ body:after {
   margin-top: 20px;
 }
 
+div#mc_embed_signup .inputbutton:hover {
+  color: plum;
+}
+
 .skills {
   margin-top: 30px;
   display: block;
@@ -2575,7 +2920,7 @@ body:after {
 .skills img {
   height: auto;
   border: 0 none;
-  width: 80%;
+  width: 100%;
   margin-top: 5px;
   border: 0 none;
 }
@@ -2587,10 +2932,6 @@ body:after {
 
 #resume:hover {
   color: yellow;
-}
-
-.skilldiv {
-  width: 100%;
 }
 
 input[type=submit] {
