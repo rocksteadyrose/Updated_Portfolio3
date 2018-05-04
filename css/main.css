@@ -2086,11 +2086,13 @@ nav {
 }
 
 .githubhover, .stackedoverflowhover, .linkedinhover {
-  display:inline
+  display:inline;
+  z-index: 10 !important;
 }
 
 .githubhover, .stackedoverflowhover, .linkedinhover {
-  position: relative
+  position: relative;
+  z-index: 10 !important;
 }
 
 .githubhover #githubhovericon {
@@ -2107,7 +2109,7 @@ nav {
 }
 
 #github1, #linkedin, #stackedoverflow {
-  z-index: 3;
+  z-index: 99 !important;
 }
 
 #github:a, #linkedin:a, #stackedoverflow:a {
@@ -2947,6 +2949,11 @@ body:after {
   font-size: 36px;
   font-weight: 100;
   line-height: 1.25em;
+  z-index: 98 !important;
+}
+
+h1 {
+  z-index: 105 !important;
 }
 
 .banner-area .banner-content h1 span {
@@ -3155,6 +3162,7 @@ body:after {
 
 #github {
   padding: 20px 30px 20px 30px;
+  z-index: 99 !important;
 }
 
 .carousel-caption {
