@@ -2766,6 +2766,16 @@ body:after {
     }
   }
 
+  @media (max-width: 414px) {
+    .footer {
+      font-size: 9px;
+    }
+
+    .banner-area {
+      margin-top: -110px;
+    }
+  }
+
   @media (max-width: 408px) {
     .footer {
       font-size: 9px;
@@ -2775,6 +2785,10 @@ body:after {
   @media (max-width: 400px) {
     .footer {
       font-size: 8px;
+    }
+    
+    .generic-banner {
+      height: 800px;
     }
 
     .skilldiv {
