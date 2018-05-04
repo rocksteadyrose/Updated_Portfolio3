@@ -3178,6 +3178,11 @@ h1 {
   border: rgb(0, 0, 0) solid 5px;
 }
 
+#liri {
+  box-shadow: 20px 3px 50px -25px rgba(0, 0, 0, 0.75);
+  border: rgb(48, 189, 182) solid 5px;
+}
+
 #friendsimg {
   border: rgb(91, 21, 255) solid 5px;
   box-shadow: 20px 3px 50px -25px rgba(0, 0, 0, 0.75);
