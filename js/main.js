@@ -1,45 +1,31 @@
 
-$(document).ready(function(){
-	"use strict";
+$(document).ready(function() {
 
-	var window_width 	 = $(window).width(),
-	window_height 		 = window.innerHeight,
-	header_height 		 = $(".default-header").height(),
-	header_height_static = $(".site-header.static").outerHeight(),
-	fitscreen 			 = window_height - header_height;
-
-
-	$(".fullscreen").css("height", window_height)
-	$(".fitscreen").css("height", fitscreen);
-
-     
-     // -------   Active Mobile Menu-----//
-
-    $(".menu-bar").on('click', function(e){
-        e.preventDefault();
-        $("nav").toggleClass('hide');
-        $("span", this).toggleClass("lnr-menu lnr-cross");
-        $(".main-menu").addClass('mobile-menu');
-    });
-     
-    $('select').niceSelect();
-    $('.img-pop-up').magnificPopup({
-        type: 'image',
-        gallery:{
-        enabled:true
+    var html = '';
+    for (var i = 1; i <= 20; i ++) {
+        html += '<div class="shape-container--'+i+' shape-animation"><div class="random-shape"></div></div>';
+    }
+      
+    document.querySelector('.shape').innerHTML += html;
+    
+    var $allShapes = $("[class*='shape-container--']");
+    $('.button').click(function (event) {
+        $allShapes.toggleClass("stop-shape");
+        var $this = $(this);
+        $this.toggleClass('.button');
+        if($this.hasClass('.button')){
+            $this.text('Unfreeze shapes');         
+        } else {
+            $this.text('Freeze shapes');
         }
+        event.preventDefault();
+    });
+    
     });
 
-    $(function() {
-        $('button.navbar-toggler').click(function() {
-          var value = $('body').css('padding-top');
-          if (value === '70px') {
-            $('body').css('padding-top', '+=235');
-          } else {
-            $('body').css('padding-top', '70');
-          }
-        });
-      });
+    
+
+    
 
   //   $('a[href*="#"]')
   // // Remove links that don't actually link to anything
@@ -79,10 +65,10 @@ $(document).ready(function(){
 
     //  Counter Js 
 
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
+    // $('.counter').counterUp({
+    //     delay: 10,
+    //     time: 1000
+    // });
 
 
     // Add smooth scrolling to Menu links
@@ -91,6 +77,8 @@ $(document).ready(function(){
         $('#mc_embed_signup').find('form').ajaxChimp();
     });      
 
- });
+//  });
+
+
 
  
