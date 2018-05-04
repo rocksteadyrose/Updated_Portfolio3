@@ -13,127 +13,361 @@
 
 @keyframes shape-1 {
   0% {
-    transform: translate3d(0, 0, 0) rotate(35deg);
+    transform: translate3d(0, 0, 0) rotate(51deg);
   }
   100% {
-    transform: translate3d(0, 0, 0) rotate(395deg);
+    transform: translate3d(0, 0, 0) rotate(411deg);
   }
 }
 .shape-container--1 {
-  animation: shape-1 44s linear infinite;
+  animation: shape-1 50s linear infinite;
 }
 .shape-container--1 .random-shape:after {
-  margin: 7rem;
-  color: #DB7093;
-  font-size: 1.4rem;
-  content: "";
+  margin: 2rem;
+  color: #C2B7FE;
+  font-size: 0.4rem;
+  content: "";
 }
 
 @keyframes shape-2 {
   0% {
-    transform: translate3d(0, 0, 0) rotate(2deg);
+    transform: translate3d(0, 0, 0) rotate(140deg);
   }
   100% {
-    transform: translate3d(0, 0, 0) rotate(362deg);
+    transform: translate3d(0, 0, 0) rotate(500deg);
   }
 }
 .shape-container--2 {
-  animation: shape-2 47s linear infinite;
+  animation: shape-2 43s linear infinite;
 }
 .shape-container--2 .random-shape:after {
-  margin: 10rem;
-  color: #95A9FF;
-  font-size: 2rem;
-  content: "";
+  margin: 8rem;
+  color: #FFF8DC;
+  font-size: 1.6rem;
+  content: "";
 }
 
 @keyframes shape-3 {
   0% {
-    transform: translate3d(0, 0, 0) rotate(131deg);
+    transform: translate3d(0, 0, 0) rotate(267deg);
   }
   100% {
-    transform: translate3d(0, 0, 0) rotate(491deg);
+    transform: translate3d(0, 0, 0) rotate(627deg);
   }
 }
 .shape-container--3 {
-  animation: shape-3 49s linear infinite;
+  animation: shape-3 45s linear infinite;
 }
 .shape-container--3 .random-shape:after {
-  margin: 9rem;
-  color: #95A9FF;
-  font-size: 1.8rem;
+  margin: 3rem;
+  color: #C2B7FE;
+  font-size: 0.6rem;
   content: "";
 }
 
 @keyframes shape-4 {
   0% {
-    transform: translate3d(0, 0, 0) rotate(5deg);
+    transform: translate3d(0, 0, 0) rotate(327deg);
   }
   100% {
-    transform: translate3d(0, 0, 0) rotate(365deg);
+    transform: translate3d(0, 0, 0) rotate(687deg);
   }
 }
 .shape-container--4 {
-  animation: shape-4 44s linear infinite;
+  animation: shape-4 46s linear infinite;
 }
 .shape-container--4 .random-shape:after {
-  margin: 8rem;
-  color: #FFF8DC;
-  font-size: 1.6rem;
+  margin: 10rem;
+  color: #C2B7FE;
+  font-size: 2rem;
   content: "";
 }
 
 @keyframes shape-5 {
   0% {
-    transform: translate3d(0, 0, 0) rotate(314deg);
+    transform: translate3d(0, 0, 0) rotate(151deg);
   }
   100% {
-    transform: translate3d(0, 0, 0) rotate(674deg);
+    transform: translate3d(0, 0, 0) rotate(511deg);
   }
 }
 .shape-container--5 {
-  animation: shape-5 45s linear infinite;
+  animation: shape-5 46s linear infinite;
 }
 .shape-container--5 .random-shape:after {
-  margin: 10rem;
-  color: #FFF8DC;
-  font-size: 2rem;
+  margin: 5rem;
+  color: #FFD700;
+  font-size: 1rem;
   content: "";
 }
 
 @keyframes shape-6 {
   0% {
-    transform: translate3d(0, 0, 0) rotate(160deg);
+    transform: translate3d(0, 0, 0) rotate(34deg);
   }
   100% {
-    transform: translate3d(0, 0, 0) rotate(520deg);
+    transform: translate3d(0, 0, 0) rotate(394deg);
   }
 }
 .shape-container--6 {
-  animation: shape-6 48s linear infinite;
+  animation: shape-6 46s linear infinite;
 }
 .shape-container--6 .random-shape:after {
-  margin: 6rem;
+  margin: 5rem;
   color: #95A9FF;
-  font-size: 1.2rem;
+  font-size: 1rem;
   content: "";
 }
 
 @keyframes shape-7 {
   0% {
-    transform: translate3d(0, 0, 0) rotate(129deg);
+    transform: translate3d(0, 0, 0) rotate(190deg);
   }
   100% {
-    transform: translate3d(0, 0, 0) rotate(489deg);
+    transform: translate3d(0, 0, 0) rotate(550deg);
   }
 }
 .shape-container--7 {
   animation: shape-7 44s linear infinite;
 }
 .shape-container--7 .random-shape:after {
-  margin: 9rem;
+  margin: 8rem;
+  color: #95A9FF;
+  font-size: 1.6rem;
+  content: "";
+}
+
+@keyframes shape-8 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(255deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(615deg);
+  }
+}
+.shape-container--8 {
+  animation: shape-8 47s linear infinite;
+}
+.shape-container--8 .random-shape:after {
+  margin: 10rem;
+  color: #C2B7FE;
+  font-size: 2rem;
+  content: "";
+}
+
+@keyframes shape-9 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(225deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(585deg);
+  }
+}
+.shape-container--9 {
+  animation: shape-9 44s linear infinite;
+}
+.shape-container--9 .random-shape:after {
+  margin: 8rem;
+  color: #FFD700;
+  font-size: 1.6rem;
+  content: "";
+}
+
+@keyframes shape-10 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(208deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(568deg);
+  }
+}
+.shape-container--10 {
+  animation: shape-10 50s linear infinite;
+}
+.shape-container--10 .random-shape:after {
+  margin: 7rem;
   color: #DB7093;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
+  content: "";
+}
+
+@keyframes shape-11 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(68deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(428deg);
+  }
+}
+.shape-container--11 {
+  animation: shape-11 46s linear infinite;
+}
+.shape-container--11 .random-shape:after {
+  margin: 6rem;
+  color: #FFD700;
+  font-size: 1.2rem;
+  content: "";
+}
+
+@keyframes shape-12 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(207deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(567deg);
+  }
+}
+.shape-container--12 {
+  animation: shape-12 44s linear infinite;
+}
+.shape-container--12 .random-shape:after {
+  margin: 4rem;
+  color: #DB7093;
+  font-size: 0.8rem;
+  content: "";
+}
+
+@keyframes shape-13 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(4deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(364deg);
+  }
+}
+.shape-container--13 {
+  animation: shape-13 48s linear infinite;
+}
+.shape-container--13 .random-shape:after {
+  margin: 5rem;
+  color: #C2B7FE;
+  font-size: 1rem;
+  content: "";
+}
+
+@keyframes shape-14 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(215deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(575deg);
+  }
+}
+.shape-container--14 {
+  animation: shape-14 43s linear infinite;
+}
+.shape-container--14 .random-shape:after {
+  margin: 6rem;
+  color: #FFF8DC;
+  font-size: 1.2rem;
+  content: "";
+}
+
+@keyframes shape-15 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(37deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(397deg);
+  }
+}
+.shape-container--15 {
+  animation: shape-15 46s linear infinite;
+}
+.shape-container--15 .random-shape:after {
+  margin: 1rem;
+  color: #95A9FF;
+  font-size: 0.2rem;
+  content: "";
+}
+
+@keyframes shape-16 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(261deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(621deg);
+  }
+}
+.shape-container--16 {
+  animation: shape-16 42s linear infinite;
+}
+.shape-container--16 .random-shape:after {
+  margin: 2rem;
+  color: #C2B7FE;
+  font-size: 0.4rem;
+  content: "";
+}
+
+@keyframes shape-17 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(27deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(387deg);
+  }
+}
+.shape-container--17 {
+  animation: shape-17 46s linear infinite;
+}
+.shape-container--17 .random-shape:after {
+  margin: 8rem;
+  color: #FFD700;
+  font-size: 1.6rem;
+  content: "";
+}
+
+@keyframes shape-18 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(112deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(472deg);
+  }
+}
+.shape-container--18 {
+  animation: shape-18 45s linear infinite;
+}
+.shape-container--18 .random-shape:after {
+  margin: 2rem;
+  color: #95A9FF;
+  font-size: 0.4rem;
+  content: "";
+}
+
+@keyframes shape-19 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(259deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(619deg);
+  }
+}
+.shape-container--19 {
+  animation: shape-19 47s linear infinite;
+}
+.shape-container--19 .random-shape:after {
+  margin: 7rem;
+  color: #DB7093;
+  font-size: 1.4rem;
+  content: "";
+}
+
+@keyframes shape-20 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(306deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(666deg);
+  }
+}
+.shape-container--20 {
+  animation: shape-20 41s linear infinite;
+}
+.shape-container--20 .random-shape:after {
+  margin: 10rem;
+  color: #FFD700;
+  font-size: 2rem;
   content: "";
 }
 
@@ -142,4 +376,7 @@
   animation-play-state: paused;
 }
 
+@media (max-width: 400px) {
+  
+}
 /*# sourceMappingURL=animation.css.map */

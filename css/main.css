@@ -2776,6 +2776,20 @@ body:after {
     .footer {
       font-size: 8px;
     }
+
+    .skilldiv {
+      width: 48%;
+    }
+
+    .banner-area {
+      margin-top: -110px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .footer {
+      font-size: 7px;
+    }
   }
 
   @media (max-width: 438px) {
@@ -2922,6 +2936,10 @@ body:after {
 
 .primary-btn:hover:after {
   opacity: 1;
+}
+
+.copyright {
+  padding-bottom: 25px;
 }
 
 .primary-btn.hover {
@@ -3159,11 +3177,12 @@ h1 {
 .buttonlinks {
   margin-top: 35px;
 }
-
+/* 
 #github {
   padding: 20px 30px 20px 30px;
   z-index: 99 !important;
-}
+  box-shadow: 30px 10px 5px black;
+} */
 
 .carousel-caption {
   background-color: navy;  
