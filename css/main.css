@@ -2284,7 +2284,7 @@ body:after {
 }
 
 .contentwrapper {
-  border: yellow 10px solid;
+  border:yellow 10px solid;
   background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
 /* 
 .portfoliocontainer {
@@ -3085,6 +3085,14 @@ body:after {
 
 #rpsrpgfeatured {
   padding: 20px;
+}
+
+.bio {
+  line-height: 170%;
+}
+
+.large {
+  font-size: 20px;
 }
 
 .view-details {
