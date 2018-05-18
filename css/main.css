@@ -1937,6 +1937,11 @@ header {
   width: 75%;
   font-size: 10px;}
 
+  .captionbamazon {
+    width: 75%;
+  font-size: 10px;
+  }
+
 .captionfriends {
   width: 75%;
   font-size: 10px;}
@@ -2610,6 +2615,18 @@ body:after {
   .mt-sm-20 {
     margin-top: 20px;
   }
+
+  
+}
+
+@media (max-width: 618px) {
+  .captionbamazon {
+    width: 95%;
+    background-color: yellow;
+    padding-right: -50px;      
+    font-size: 10px;
+    position: absolute;
+    left: 24px;}
 }
 
 
@@ -2668,6 +2685,9 @@ body:after {
       position: absolute;
       left: 24px;}
     
+     
+    
+        
       .carousel-caption h5 {
         font-size: 10px;
     }
@@ -2678,6 +2698,13 @@ body:after {
     .buttonlinks a {
       font-size: 10px;
     }
+
+    .captionbamazon {
+      width: 90%;
+      margin-right: 50px;
+      font-size: 10px;
+      position: absolute;
+      left: 16px;}
     
     .captionhangman {
       width: 90%;
@@ -3186,6 +3213,11 @@ h1 {
 #constructorhangman {
   box-shadow: 20px 3px 50px -25px rgba(0, 0, 0, 0.75);
   border: rgb(189, 48, 130) solid 5px;
+}
+
+#bamazonimg {
+  box-shadow: 20px 3px 50px -25px rgba(0, 0, 0, 0.75);
+  border: rgb(48, 189, 90) solid 5px;
 }
 
 #friendsimg {
