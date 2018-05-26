@@ -1942,6 +1942,11 @@ header {
   font-size: 10px;
   }
 
+  .captionfidofinder {
+    width: 75%;
+  font-size: 10px;
+  }
+
 .captionfriends {
   width: 75%;
   font-size: 10px;}
@@ -2627,6 +2632,14 @@ body:after {
     font-size: 10px;
     position: absolute;
     left: 24px;}
+    
+    .captionfidofinder {
+      width: 95%;
+      background-color: yellow;
+      padding-right: -50px;      
+      font-size: 10px;
+      position: absolute;
+      left: 24px;}
 }
 
 
@@ -2705,6 +2718,13 @@ body:after {
       font-size: 10px;
       position: absolute;
       left: 16px;}
+
+      .captionfidofinder {
+        width: 90%;
+        margin-right: 90px;
+        font-size: 10px;
+        position: absolute;
+        left: 16px;}
     
     .captionhangman {
       width: 90%;
@@ -2751,6 +2771,14 @@ body:after {
     }
 
   .captionhangman {
+    width: 95%;
+    margin-right: 50px;
+    font-size: 10px;
+    position: absolute;
+    left: 8px;
+  }
+
+  .captionfidofinder {
     width: 95%;
     margin-right: 50px;
     font-size: 10px;
@@ -3218,6 +3246,11 @@ h1 {
 #bamazonimg {
   box-shadow: 20px 3px 50px -25px rgba(0, 0, 0, 0.75);
   border: rgb(48, 189, 90) solid 5px;
+}
+
+#fidofinderimg {
+  box-shadow: 20px 3px 50px -25px rgba(0, 0, 0, 0.75);
+  border: rgb(111, 49, 255) solid 5px;
 }
 
 #friendsimg {
