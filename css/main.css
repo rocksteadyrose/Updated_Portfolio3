@@ -2835,12 +2835,17 @@ body:after {
     .footer {
       font-size: 9px;
     }
+
+    .carousel-caption p {
+      display: none;
+    }
   }
 
   @media (max-width: 400px) {
     .footer {
       font-size: 8px;
     }
+
     
     .generic-banner {
       height: 800px;
