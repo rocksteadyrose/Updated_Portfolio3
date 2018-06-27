@@ -1942,7 +1942,12 @@ header {
   font-size: 10px;
   }
 
-  .captionfidofinder {
+  .captionfridgefit {
+  width: 75%;
+  font-size: 10px;
+  }
+
+  .captionfidofinder, .captionliri {
     width: 75%;
   font-size: 10px;
   }
@@ -1998,6 +2003,19 @@ header {
 
   .carousel-caption h5 {
     font-size: 10px;
+}
+
+.appcaption {
+  display: none;
+}
+
+.carousel-indicators {
+  width: 90%;
+  margin: 0 0 -15px 12px;
+}
+
+div.carousel-caption {
+  margin-left: -15px;
 }
 }
 
@@ -2633,8 +2651,8 @@ body:after {
     position: absolute;
     left: 24px;}
     
-    .captionfidofinder {
-      width: 95%;
+    .captionfidofinder, .captionbamazon {
+      width: 85%;
       background-color: yellow;
       padding-right: -50px;      
       font-size: 10px;
@@ -2690,7 +2708,7 @@ body:after {
       position: absolute;
       left: 24px;}
     
-    .captionrps {
+    .captionrps, .captionfidofinder, .captionbamazon {
       width: 85%;
       background-color: yellow;
       padding-right: -50px;      
@@ -2698,9 +2716,6 @@ body:after {
       position: absolute;
       left: 24px;}
     
-     
-    
-        
       .carousel-caption h5 {
         font-size: 10px;
     }
@@ -2841,12 +2856,11 @@ body:after {
     }
   }
 
-  @media (max-width: 400px) {
+  @media (min-width: 400px) {
     .footer {
       font-size: 8px;
     }
 
-    
     .generic-banner {
       height: 800px;
     }
@@ -2857,6 +2871,15 @@ body:after {
 
     .banner-area {
       margin-top: -110px;
+    }
+
+    .carousel-indicators {
+      width: 90%;
+      margin: 0 0 -15px 12px;
+    }
+    
+    div.carousel-caption {
+      margin-left: 1px;
     }
   }
 
