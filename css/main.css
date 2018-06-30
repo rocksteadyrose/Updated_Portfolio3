@@ -832,12 +832,17 @@ td, th {
   color: rgb(0, 238, 255);
 }
 
+.resumebuttonmodal:visited {
+  box-shadow: 0px 0px 40px rgb(251, 255, 0);
+}
+
 .resumeimg {
   max-width: 90%;
 }
 
 .downloadlink {
-  color: black;
+  color: rgb(0, 141, 151);
+  font-weight: 10px;
 }
 
 .downloadlink:hover {
