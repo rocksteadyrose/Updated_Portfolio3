@@ -17,6 +17,9 @@
 	<link rel="stylesheet" href="css/nice-select.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/animation.css">
 
@@ -59,7 +62,7 @@
 
 			<div class="banner-area generic-banner">
 				<div class="shape">
-					<div class="container">
+					<div class="container introarea">
 
 						<div class="row justify-content-center generic-height align-items-center">
 							<div class="col-lg-8">
@@ -127,21 +130,57 @@
 									have been creating a children's television show targeted at 4 to 8-year-old children to help develop their music
 									literacy, which I will begin pitching later this year.</p>
 
-								<div id="webskills"></div>
-
 								<p>I have always had very strong skills with software and computers and will be
 									<span class="large">seeking a role</span> as a web developer beginning in summer 2018. I hope to further expand my skill sets at a company
 									where I can continue to learn and excel while making a
 									<span class="large">positive</span> impact.</p>
 
-								<a href="http://bit.ly/roseresume627" target="blank">
-									<span id="resume">
-										<br>(View Leslie's professional resume)</span>
-								</a>
 
-								<br>
-								<br>
-								<br>
+								<span id="resume">
+
+									<div class="container">
+										<button type="button" class="btn btn-primary resumebuttonmodal" data-toggle="modal" data-target="#resumeModal">
+											Resume
+										</button>
+
+										<div class="modal fade" id="resumeModal">
+											<div class="modal-dialog">
+												<div class="modal-content">
+
+													<!-- Modal Header -->
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal">&times;</button>
+													</div>
+
+													<!-- Modal body -->
+													<div class="modal-body">
+														<a class="downloadlink" href="http://bit.ly/roseresume627" target="_blank">Click to enlarge</a>
+
+														<a href="http://bit.ly/roseresume627" target="_blank">
+															<img class="img-responsive resumeimg" src="images/resume1.png" alt="resume p1">
+														</a>
+														<a href="http://bit.ly/roseresume627" target="_blank">
+															<img class="img-responsive resumeimg" src="images/resume2.png" alt="resume p2">
+														</a>
+
+													</div>
+
+													<!-- Modal footer -->
+													<div class="modal-footer">
+														<button type="button" class="btn closebutton" data-dismiss="modal">Close</button>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+
+
+									</div>
+								</span>
+								<div id="webskills"></div>
+
+								<img src="images/border5.png" alt="border5" class="border5">
 
 								<!-- <img src="images/border4.png" alt="border4" class="border4"> -->
 
@@ -176,6 +215,21 @@
 										</div>
 									</div>
 
+									<div class="row justify-content-center">
+
+
+										<div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-1 skilldiv">
+											<img class="img-fluid" src="images/mongodb.png" id="skillimg">
+										</div>
+										<div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-1 skilldiv">
+											<img class="img-fluid" src="images/mysqllogo.png" id="skillimg">
+										</div>
+										<div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-1 skilldiv">
+											<img class="img-fluid" src="images/express.png" id="skillimg">
+										</div>
+
+									</div>
+
 								</div>
 							</div>
 						</div>
@@ -185,8 +239,8 @@
 
 			</section>
 			<!-- End About Start -->
-			<img src="images/border1.png" alt="border2" class="border2">
 			<div id="portfolio"></div>
+			<img src="images/border1.png" alt="border2" class="border2">
 			<!-- Start portfolio Area -->
 			<div class="portfoliocontainer">
 				<h2 class="text-center text-uppercase featuredprojects">FEATURED PROJECTS</h2>
@@ -279,8 +333,8 @@
 										<h5>FRIDGEfit</h5>
 										<br>
 										<div class="description">
-											<p class="appcaption">Creates recipes from the ingredients in your fridge using the Edamam API and directs you to the nearest
-												grocery store for any last minute ingredients using the Google Maps API. </p>
+											<p class="appcaption">Creates recipes from the ingredients in your fridge using the Edamam API and directs you to the nearest grocery
+												store for any last minute ingredients using the Google Maps API. </p>
 										</div>
 										<div class="buttonlinks">
 											<a class="text-uppercase view-details" id="github" href="http://bit.ly/rosefridgefit" target="blank">View</a>
@@ -295,8 +349,8 @@
 										<h5>LIRI Bot</h5>
 										<br>
 										<div class="description">
-											<p class="appcaption">A Language Interpretation and Recognition Interface command line node app similar to SIRI that
-												takes in parameters and gives back data.</p>
+											<p class="appcaption">A Language Interpretation and Recognition Interface command line node app similar to SIRI that takes in parameters
+												and gives back data.</p>
 										</div>
 										<div class="buttonlinks">
 											<a class="text-uppercase view-details" id="github" href="https://github.com/rocksteadyrose/liri-node-app" target="blank">GitHub</a>
