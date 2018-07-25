@@ -191,6 +191,10 @@ td, th {
   z-index: 1;
 }
 
+#contact {
+  margin-bottom: 30px;
+}
+
 .carousel-indicators li {
   display: inline-block;
   width: 10px;
@@ -2917,6 +2921,10 @@ body:after {
 
     .generic-banner {
       height: 800px;
+    }
+
+    #contact {
+      margin-bottom: -15px;
     }
 
     .skilldiv {

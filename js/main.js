@@ -20,6 +20,14 @@ $(document).ready(function() {
         }
         event.preventDefault();
     });
+
+    // $(".navbar-nav li a").click(function(event) {
+    //     $(".navbar-collapse").collapse('hide');
+    //   });
+
+    //   if( $(e.target).is('a:not(".dropdown-toggle")') ) {
+    //     $(this).collapse('hide');
+    // }
     
     });
 
