@@ -3545,7 +3545,7 @@ div#mc_embed_signup .inputbutton {
   }
 }
 
-.footer-menu a:hover {
+.footer-menu a:hover, .bleeckie a:hover {
   color: #a387ff;
 }
 
