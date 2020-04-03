@@ -2229,8 +2229,8 @@ nav {
 }
 
 .introarea {
-  padding-top: 90px;
-  margin-bottom: 90px;
+  /* padding-top: 90px;
+  margin-bottom: 90px; */
 }
 
 .portfoliocontainer .custom-center {
@@ -3092,7 +3092,7 @@ body:after {
 }
 
 #index {
-  padding-top: 500px;
+  padding-top: 300px;
 }
 
 .primary-btn:hover:after {
@@ -3120,15 +3120,15 @@ body:after {
   height: 400px;
 }
 
-.banner-area .banner-content {
+/* .banner-area .banner-content {
   margin-top: 5px;
-}
+} */
 
 .banner-area .banner-content h1 {
   font-size: 36px;
   font-weight: 100;
   line-height: 1.25em;
-  z-index: 98 !important;
+  z-index: 60 !important;
 }
 
 h1 {
