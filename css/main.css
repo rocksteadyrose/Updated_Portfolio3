@@ -2229,8 +2229,8 @@ nav {
 }
 
 .introarea {
-  /* padding-top: 90px;
-  margin-bottom: 90px; */
+  /* padding-top: 90px; */
+  margin-bottom: 90px;
 }
 
 .portfoliocontainer .custom-center {
@@ -2901,9 +2901,9 @@ body:after {
 
   @media (max-width: 414px) {
 
-    .banner-area {
+    /* .banner-area {
       margin-top: -110px;
-    }
+    } */
   }
 
   @media (max-width: 408px) {
@@ -2931,9 +2931,9 @@ body:after {
       width: 48%;
     }
 
-    .banner-area {
+    /* .banner-area {
       margin-top: -110px;
-    }
+    } */
 
     .carousel-indicators {
       width: 90%;
@@ -3112,9 +3112,9 @@ body:after {
   opacity: 1;
 }
 
-.banner-area .height {
+/* .banner-area .height {
   height: 540px;
-}
+} */
 
 .banner-area .generic-height {
   height: 400px;
@@ -3128,7 +3128,7 @@ body:after {
   font-size: 36px;
   font-weight: 100;
   line-height: 1.25em;
-  z-index: 60 !important;
+  /* z-index: 60 !important; */
 }
 
 h1 {
